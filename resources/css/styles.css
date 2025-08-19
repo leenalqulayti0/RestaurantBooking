@@ -6,10 +6,10 @@
 }
 
 body{
-  background: linear-gradient(to right, rgba(56, 42, 33, 0.2), #C6BFB4);
+  background-image: url('/Users/mac/LogInTest/public/images/Rest.jpg'); 
+  background-size: cover;    
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position: center;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,8 +140,12 @@ button.ghost{
   border-bottom-right-radius: 30px;
 }
 
-.overlay{
-  background: linear-gradient(to right, rgba(55,40,31,0.2), #4a4337);
+.overlay {
+  background: linear-gradient(
+    to right,
+    rgba(150, 111, 51, 0.85),   /* ذهبي-بني فاتح */
+    rgba(110, 72, 35, 0.95)     /* برونزي أغمق */
+  );
   background-color: #C6BFB4;
   color: #fff;
   position: relative;
@@ -151,6 +155,7 @@ button.ghost{
   transform: translateX(0);
   transition: transform 0.6s ease-in-out;
 }
+
 
 .container.right-panel-active .overlay{
   transform: translateX(50%);

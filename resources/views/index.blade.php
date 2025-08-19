@@ -8,7 +8,6 @@
 </head>
 <body>
   <main id="container" class="container">
-    <!-- Sign Up -->
     <section class="form-container sign-up-container">
       <form id="signupForm" novalidate>
         <h1>Create Account</h1>
@@ -20,8 +19,6 @@
         <button id="signupBtn" type="submit">Sign Up</button>
       </form>
     </section>
-
-    <!-- Log In -->
     <section class="form-container sign-in-container">
       <form id="loginForm" novalidate>
         <h1>Welcome Back</h1>
@@ -29,27 +26,21 @@
   Glad to see you again!<br>
   Log in to your account below
 </p>
-
-        <input id="loginEmail" name="loginEmail" type="email" placeholder="Email" required />
+        <input id="number" name="number" type="tel" placeholder="Phone number"required />
         <input id="loginPassword" name="loginPassword" type="password" placeholder="Password" required />
         <button id="loginBtn" type="submit">Log In</button>
       </form>
     </section>
-
-    <!-- Overlay -->
     <div class="overlay-container" aria-hidden="true">
       <div class="overlay">
-        <!-- Panel for users who want to log in -->
         <div class="overlay-panel overlay-left">
           <h2>Already a Member?</h2>
           <p>Welcome back! Log in to pick up where you left.</p>
           <button class="ghost" id="toSignIn" type="button">Log In</button>
         </div>
-
-        <!-- Panel for new users who want to sign up -->
         <div class="overlay-panel overlay-right">
           <h2>New Here?</h2>
-          <p>Create your account and start your journey in seconds.</p>
+          <p>Create your account in seconds.</p>
           <button class="ghost" id="toSignUp" type="button">Sign Up</button>
         </div>
       </div>
