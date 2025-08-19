@@ -14,7 +14,7 @@
         <h1>Create Account</h1>
         <p>Fill in your details to get started</p>
         <input id="name" name="name" type="text" placeholder="Full name" required />
-        <input id="email" name="email" type="email" placeholder="Email" required />
+  <input id="number" name="number" type="tel" placeholder="Phone number"required />
         <input id="password" name="password" type="password" placeholder="Password" minlength="6" required />
         <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm password" minlength="6" required />
         <button id="signupBtn" type="submit">Sign Up</button>
